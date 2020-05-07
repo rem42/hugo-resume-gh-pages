@@ -1,0 +1,192 @@
+baseURL = "https://remy.ovh/"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+title = "Rémy BRUYERE - Développeur Symfony Prestashop"
+googleAnalytics = "UA-76455329-1"
+
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    [params.profile]
+        name = "Rémy BRUYERE"
+        job = "Développeur Full Stack"
+        avatar = "images/profile.jpg"
+        summary = "J’ai commencé le développement web par passion il y a 12 ans, en autodidacte lorsque j’étais encore au lycée. Je réalisais alors des sites web pour des projets personnels. Je me suis naturellement orienté vers des études d’informatique avant de me spécialiser dans le web puis dans le e-commerce à travers diverses expériences. Je maitrise le PHP, Symfony, Prestashop, Angular, les problématiques du web et plus particulièrement celles liées au e-commerce. J’ai l’habitude de travailler en autonomie sous des contraintes de délais, et dans des équipes agiles."
+
+    [params.contact]
+        location = "Saint-Étienne, Annecy, Lyon"
+        [[params.contact.list]]
+        icon = "fas fa-phone"
+        url = "tel:+33666529870"
+        text = "06 66 52 98 70"
+        [[params.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:me@remy.ovh"
+        text = "me@remy.ovh"
+        [[params.contact.list]]
+        icon = "fas fa-globe-americas"
+        url = "//remy.ovh"
+        text = "remy.ovh"
+
+    [params.social]
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/rem42"
+        title = "rem42"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://linkedin.com/in/remy-bruyere"
+        title = "remy-bruyere"
+
+    [params.experience]
+        [[params.experience.list]]
+        title = "Développeur Symfony Angular"
+        company = "Iteatime / Editions Tissot"
+        dates = "2018 - 2019 (plus d’un an)"
+        details = "Recruté par Iteatime, je suis intervenu pour cette société spécialisée dans le droit social, sur un projet d’envergure : Lumio. Cette plateforme Saas propose d’assister les clients dans leur procédures RH. Ce projet m’a permis de solidifier mes compétences techniques et de maîtriser le travail dans un cadre agile."
+        technology = "Architecture micro-service ; Scrum ; PHP ; TypeScript ; Symfony 3 et 4 ; Angular 6 puis 8 ; tests unitaires et d’intégration ; PHPUnit ; Behat ; Postman ; Jasmine ; Karma ; Cypress"
+        [[params.experience.list]]
+        title = "Développeur Symfony freelance"
+        company = "Camalo"
+        dates = "2018 (3 mois)"
+        details = "Cette société fournissant des services logistiques pour le e-commerce m’a confié la réalisation de fonctionnalités d’administration en Symfony, interfacées avec le site e-commerce Prestashop et les web-services d’expédition de la Poste et de TNT. J’ai travaillé en autonomie, dans un environnement technique complexe"
+        technology = "Symfony 4 ; PHP ; MariaDB; jQuery ; SCSS ; Vue.js ; Webpack ; Ansible ; API tierces"
+        [[params.experience.list]]
+        title = "Développeur Symfony freelance"
+        company = "Eskis live"
+        dates = "2018 (4 mois)"
+        details = "J’ai réalisé pour ce designer d’hôtels-restaurants un système de gestion de projets et de client. J’ai pris en charge le projet seul, de son chiffrage à sa réalisation."
+        technology = "Symfony 4 ; PHP ; MariaDB ; jQuery ; SCSS ; Webpack"
+        [[params.experience.list]]
+        title = "Développeur Prestashop freelance"
+        company = "Potpotam"
+        dates = "2018 (4 mois)"
+        details = "Suite à une levée de fonds, cette entreprise vendant des pots pour bébé sur internet m’a confié la migration de son site de vente de Wordpress / WooCommerce vers Prestashop et le développement de nouvelles fonctionnalités. J’ai du rendre transparente cette migration d’un point de vue SEO par la redirection de toutes les URLs."
+        technology = "Prestashop 1,7 ; PHP ; MySQL; jQuery ; SCSS"
+        [[params.experience.list]]
+        title = "Développeur Symfony / Chef de projet freelance"
+        company = "Everything"
+        dates = "2017 - 2018 (8 mois)"
+        details = "Intégré à une équipe de plusieurs développeurs, j’ai travaillé sur la réalisation d’une nouvelle version de cet annuaire de services numériques. J’ai découvert avec ce client la difficulté du travail à plusieurs."
+        technology = "Symfony 4 ; PHP ; MariaDB; jQuery ; SCSS ; Vue.js ; Webpack ; Nginx ; ElasticSearch ; Trello ; Git ; Ansible"
+        [[params.experience.list]]
+        title = "Développeur Wordpress freelance"
+        company = "Plusieurs clients"
+        dates = "2017 - 2018"
+        details = "En collaboration avec une société de prise d’images, j’ai participé au développement de sites Wordpress pour différents clients (4 projets). J’étais intégré à une équipe."
+        technology = "Wordpress ; SEO ; Google Analytics ; Google Search Console"
+        [[params.experience.list]]
+        title = "Développeur Prestashop / Symfony"
+        company = "Cadeau Maestro"
+        dates = "2013 - 2018 (plus de 3 ans au total)"
+        details = "D’abord en stage, puis en apprentissage et enfin en CDI, j’ai réalisé pour cette société de nombreux travaux de développement sur le site e-commerce. Seul développeur en interne, j’ai pris en charge tous les aspects de la production : développement de fonctionnalités, maintenance, migrations, exploitation."
+        technology = "Prestashop 1.3 puis 1.5 ; Symfony 3 ; API Google Analytics ; SEO ; A/B Testing ; CSS / SCSS ; PHP ; MySQL ; jQuery ; Gulp ; Nginx ; ElasticSearch ; Asana ; GIT"
+
+    [params.projects]
+        summary = "J’ai réalisé plusieurs sites pour des projets personnels, en autodidacte. J’ai ainsi découvert le web, le PHP, les bases de données. C’est ainsi qu’est née ma passion, devenue mon métier."
+        [[params.projects.list]]
+        title = "StreeTPreZ"
+        link = "https://streetprez.com"
+        meta = "Private"
+        tagline = "Générateur de présentations de films / series / jeux-vidéos / ebooks en allant scraper les sites les plus populaires dans chaques domaines"
+        [[params.projects.list]]
+        title = "Scraper"
+        link = "https://github.com/rem42/scraper"
+        meta = "Open source"
+        tagline = "Moteur de scraping PHP utilisé dans différents projets pour uniformiser les développements"
+        [[params.projects.list]]
+        title = "Loto CLI"
+        link = "https://github.com/rem42/loto-cli"
+        meta = "Open source"
+        tagline = "Application en ligne de commande pour jouer à Kingoloto & Bananalotto"
+        [[params.projects.list]]
+        title = "Kingoloto client"
+        link = "https://www.npmjs.com/package/kingoloto-client"
+        meta = "Open source"
+        tagline = "Librairie javascript pour jouer à Kingoloto"
+        [[params.projects.list]]
+        title = "Bananalotto client"
+        link = "https://www.npmjs.com/package/bananalotto-client"
+        meta = "Open source"
+        tagline = "Librairie javascript pour jouer à Bananalotto"
+        [[params.projects.list]]
+        title = "Scraper Allocine"
+        link = "https://github.com/rem42/scraper-allocine"
+        meta = "Open source"
+        tagline = "Librairie PHP pour scraper le site Allocine.fr"
+        [[params.projects.list]]
+        title = "Faker"
+        link = "https://github.com/rem42/faker"
+        meta = "Open source"
+        tagline = "Extention du bundle de fzaninotto pour ajouter Harry Potter / Retour vers le futur et Pokémon"
+
+    [params.languages]
+        [[params.languages.list]]
+        name = "Français"
+        level = "Natif"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Professionnel"
+        [[params.languages.list]]
+        name = "Espagnol"
+        level = "Scolaire"
+
+    [params.interests]
+        [[params.interests.list]]
+        name = "Escalade"
+        [[params.interests.list]]
+        name = "Natation"
+        [[params.interests.list]]
+        name = "Badminton"
+        [[params.interests.list]]
+        name = "Ski / Snow"
+        [[params.interests.list]]
+        name = "High tech et les nouvelles technologies"
+        [[params.interests.list]]
+        name = "Raid Nature du Pont d’Arc édition 2012 (course à pied, canoë, VTT)"
+
+    [params.education]
+        [[params.education.list]]
+        degree = "Licence Professionnelle Systèmes Informatiques et Logiciels: Concepteur et Gestionnaire de Sites Internet"
+        university = "Bourg-en-Bresse"
+        dates = "2014 - 2015"
+        [[params.education.list]]
+        degree = "Licence Mathématiques / Informatique"
+        university = "Lyon"
+        dates = "2013 - 2014"
+        [[params.education.list]]
+        degree = "DUT Informatique"
+        university = "Annecy"
+        dates = "2011 - 2013"
+        [[params.education.list]]
+        degree = "Bac S"
+        university = "Andrézieux-Bouthéon"
+        dates = "2011"
+
+    [params.skills]
+        [[params.skills.list]]
+        title = "Techniques"
+        [[params.skills.list.items]]
+        details = "PHP 7"
+        [[params.skills.list.items]]
+        details = "Symfony 3, 4, 5"
+        [[params.skills.list.items]]
+        details = "Prestashop 1.5, 1.6, 1.7"
+        [[params.skills.list.items]]
+        details = "JavaScript / Angular / Vue"
+        [[params.skills.list.items]]
+        details = "PostgreSQL / MySQL"
+        [[params.skills.list.items]]
+        details = "Programmation orientée objet"
+        [[params.skills.list.items]]
+        details = "Concevoir et implémenter des structures de base de données"
+
+        [[params.skills.list]]
+        title = "Professionnelles"
+        [[params.skills.list.items]]
+        details = "Autonomie"
+        [[params.skills.list.items]]
+        details = "Contraintes de délais"
+        [[params.skills.list.items]]
+        details = "Équipe Agile SCRUM / KANBAN"

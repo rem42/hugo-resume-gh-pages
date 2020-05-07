@@ -1,0 +1,26 @@
+<div class="py-3">
+    <div class="media flex-column flex-md-row align-items-center">
+        {{ $profile := resources.Get .Site.Params.profile.avatar }}
+        {{ $image := $profile.Resize "120x" }}
+        <img class="mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto"
+             src="{{ $image.Permalink }}"
+             title="Photo {{ .Site.Params.profile.name }}"
+             alt="Photo {{ .Site.Params.profile.name }}">
+        <div>
+            <p class="intro mb-0">{{ .Site.Params.profile.summary }}</p>
+        </div>
+    </div>
+    <hr/>
+    <div class="text-center">
+        <ul class="list-inline mx-auto d-inline-block mb-0">
+            {{ range .Site.Params.social.list }}
+            <li class="list-inline-item mb-lg-0 mr-3">
+                <a href="{{ .url | safeURL }}" target="_blank">
+                    <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
+                    <span class="d-none d-lg-inline-block">{{ .title }}</span>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
