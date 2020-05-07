@@ -19,17 +19,11 @@
     }
 </script>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
-        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-        crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
-        integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
-        crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
-        crossorigin="anonymous"></script>
+{{ $jquery := resources.Get "js/jquery.slim.min.js" }}
+{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+{{ $fontAwesome := resources.Get "js/all.min.js" }}
+{{ $js := slice $jquery $bootstrap $fontAwesome | resources.Concat "js/bundle.js" }}
+<script src="{{ $js.Permalink }}"></script>
 
 <!-- Analytics -->
 <script>

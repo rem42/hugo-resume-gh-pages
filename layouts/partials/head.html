@@ -19,17 +19,9 @@
 <meta name="twitter:description" content="{{ .Site.Params.Description }}" />
 <meta name="twitter:image" content="{{ $profile.Permalink }}" />
 
-
-<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
-      crossorigin="anonymous" />
-
-<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-      crossorigin="anonymous" />
-
+{{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
+{{ $fontAwesome := resources.Get "css/all.min.css" }}
 {{ $sass := resources.Get "scss/main.scss" }}
 {{ $style := $sass | resources.ToCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $css := slice $bootstrap $fontAwesome $style | resources.Concat "css/bundle.css" }}
+<link rel="stylesheet" href="{{ $css.Permalink }}">

@@ -91,19 +91,3 @@ p.intro {
 .list {
   font-size: 0.875rem;
 }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-
-  .resume-aside {
-    border-left: 0;
-  }
-}
-
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-  .resume-contact {
-    border-left: 0;
-  }
-}
