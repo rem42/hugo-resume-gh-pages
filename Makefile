@@ -3,3 +3,6 @@ build:
 
 serve:
 	hugo server
+
+deploy:
+	./deploy.sh
