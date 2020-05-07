@@ -2,6 +2,7 @@ baseURL = "https://remy.ovh/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 title = "Rémy BRUYERE - Développeur Symfony Prestashop"
+description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 12 ans. Réalisation de sites e-commerces, mais travail aussi en équipes agiles, scrum"
 googleAnalytics = "UA-76455329-1"
 
 enableRobotsTXT = true
