@@ -1,8 +1,8 @@
 <section class="py-3">
-    <h3 class="text-uppercase mb-4">{{ i18n "skills" }}</h3>
+    <h2 class="text-uppercase mb-4">{{ i18n "skills" }}</h2>
     {{ range .Site.Params.skills.list }}
     <div class="item">
-        <h4 class="item-title">{{ .title }}</h4>
+        <h3 class="item-title">{{ .title }}</h3>
         <ul class="list-unstyled list">
             {{ range .items }}
             <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
