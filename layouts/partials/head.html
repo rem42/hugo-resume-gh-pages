@@ -31,5 +31,5 @@
       crossorigin="anonymous" />
 
 {{ $sass := resources.Get "scss/main.scss" }}
-{{ $style := $sass | resources.ToCSS }}
+{{ $style := $sass | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
