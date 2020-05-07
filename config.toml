@@ -35,10 +35,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         icon = "fab fa-github-square"
         url = "https://github.com/rem42"
         title = "rem42"
+        name = "github"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "https://linkedin.com/in/remy-bruyere"
         title = "remy-bruyere"
+        name = "linkedin"
 
     [params.experience]
         [[params.experience.list]]

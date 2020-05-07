@@ -15,7 +15,7 @@
         <ul class="list-inline mx-auto d-inline-block mb-0">
             {{ range .Site.Params.social.list }}
             <li class="list-inline-item mb-lg-0 mr-3">
-                <a href="{{ .url | safeURL }}" target="_blank">
+                <a href="{{ .url | safeURL }}" title="Lien {{ .name }} vers {{ .title }}" target="_blank">
                     <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
                     <span class="d-none d-lg-inline-block">{{ .title }}</span>
                 </a>
