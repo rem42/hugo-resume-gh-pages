@@ -21,14 +21,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         icon = "fas fa-phone"
         url = "tel:+33666529870"
         text = "06 66 52 98 70"
+        title = "Téléphone de contact professionnel"
         [[params.contact.list]]
         icon = "fas fa-envelope"
         url = "mailto:me@remy.ovh"
         text = "me@remy.ovh"
+        title = "Adresse mail professionnel"
         [[params.contact.list]]
         icon = "fas fa-globe-americas"
         url = "//remy.ovh"
         text = "remy.ovh"
+        title = "Site web vitrine professionnel"
 
     [params.social]
         [[params.social.list]]

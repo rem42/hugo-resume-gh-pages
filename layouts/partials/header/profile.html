@@ -7,7 +7,7 @@
             {{ range .Site.Params.contact.list }}
             <li class="mb-2">
                 <i class="{{ .icon }} fa-fw fa-lg mr-2"></i>
-                <a class="resume-link" href="{{ .url | safeURL }}">{{ .text }}</a>
+                <a href="{{ .url | safeURL }}" title="{{ .title }}">{{ .text }}</a>
             </li>
             {{ end }}
             <li class="mb-0">
