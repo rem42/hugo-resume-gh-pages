@@ -1,7 +1,7 @@
 baseURL = "https://remy.ovh/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Rémy BRUYERE - Développeur Symfony Prestashop"
+title = "Rémy BRUYERE - Développeur PHP Symfony Prestashop"
 googleAnalytics = "UA-76455329-1"
 
 enableRobotsTXT = true
