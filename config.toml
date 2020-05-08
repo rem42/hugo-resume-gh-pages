@@ -8,7 +8,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 12 ans. Réalisation de sites e-commerces, mais travail aussi en équipes agiles, scrum"
+	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 12 ans. E-commerce, Agile, Scrum, Kanban"
     [params.profile]
         name = "Rémy BRUYERE"
         job = "Développeur Full Stack"
