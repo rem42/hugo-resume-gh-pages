@@ -18,29 +18,29 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [params.contact]
         location = "Saint-Étienne, Annecy, Lyon"
         [[params.contact.list]]
-        icon = "fas fa-phone"
+        icon = "icon-phone"
         url = "tel:+33666529870"
         text = "06 66 52 98 70"
         title = "Téléphone de contact professionnel"
         [[params.contact.list]]
-        icon = "fas fa-envelope"
+        icon = "icon-envelope"
         url = "mailto:me@remy.ovh"
         text = "me@remy.ovh"
         title = "Adresse mail professionnel"
         [[params.contact.list]]
-        icon = "fas fa-globe-americas"
+        icon = "icon-globe-americas"
         url = "//remy.ovh"
         text = "remy.ovh"
         title = "Site web vitrine professionnel"
 
     [params.social]
         [[params.social.list]]
-        icon = "fab fa-github-square"
+        icon = "icon-github-square"
         url = "https://github.com/rem42"
         title = "rem42"
         name = "github"
         [[params.social.list]]
-        icon = "fab fa-linkedin"
+        icon = "icon-linkedin-square"
         url = "https://linkedin.com/in/remy-bruyere"
         title = "remy-bruyere"
         name = "linkedin"

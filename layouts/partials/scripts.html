@@ -19,12 +19,6 @@
     }
 </script>
 
-{{ $jquery := resources.Get "js/jquery.slim.min.js" }}
-{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $fontAwesome := resources.Get "js/all.min.js" }}
-{{ $js := slice $jquery $bootstrap $fontAwesome | resources.Concat "js/bundle.js" }}
-<script src="{{ $js.Permalink }}"></script>
-
 <!-- Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
