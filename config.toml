@@ -51,13 +51,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         company = "Iteatime / Editions Tissot"
         dates = "2018 - 2019 (plus d’un an)"
         details = "Recruté par Iteatime, je suis intervenu pour cette société spécialisée dans le droit social, sur un projet d’envergure : Lumio. Cette plateforme Saas propose d’assister les clients dans leur procédures RH. Ce projet m’a permis de solidifier mes compétences techniques et de maîtriser le travail dans un cadre agile."
-        technology = "Architecture micro-service ; Scrum ; PHP ; TypeScript ; Symfony 3 et 4 ; Angular 6 puis 8 ; tests unitaires et d’intégration ; PHPUnit ; Behat ; Postman ; Jasmine ; Karma ; Cypress"
+        technology = "Architecture micro-service ; Scrum ; PHP 7.4 ; TypeScript ; Symfony 3 et 4 ; Angular 6 puis 8 ; tests unitaires et d’intégration ; PHPUnit ; Behat ; Postman ; Jasmine ; Karma ; Cypress ; RabbitMQ"
         [[params.experience.list]]
         title = "Développeur Symfony freelance"
         company = "Camalo"
         dates = "2018 (3 mois)"
         details = "Cette société fournissant des services logistiques pour le e-commerce m’a confié la réalisation de fonctionnalités d’administration en Symfony, interfacées avec le site e-commerce Prestashop et les web-services d’expédition de la Poste et de TNT. J’ai travaillé en autonomie, dans un environnement technique complexe"
-        technology = "Symfony 4 ; PHP ; MariaDB; jQuery ; SCSS ; Vue.js ; Webpack ; Ansible ; API tierces"
+        technology = "Symfony 4 ; PHP 7.4 ; MariaDB ; jQuery ; SCSS ; Vue.js ; Webpack ; RabbitMQ ; Ansible ; API tierces"
         [[params.experience.list]]
         title = "Développeur Symfony freelance"
         company = "Eskis live"
