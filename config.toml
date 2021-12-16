@@ -1,3 +1,6 @@
+[build]
+    writeStats = true
+
 baseURL = "https://remy.ovh/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
@@ -8,7 +11,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 12 ans. E-commerce, Agile, Scrum, Kanban"
+	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 14 ans. E-commerce, Agile, Scrum, Kanban"
     [params.profile]
         name = "Rémy BRUYERE"
         job = "Développeur Full Stack"
