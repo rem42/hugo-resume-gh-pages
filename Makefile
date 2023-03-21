@@ -6,3 +6,6 @@ serve:
 
 deploy:
 	./deploy.sh
+
+install:
+	git submodule update --init --recursive

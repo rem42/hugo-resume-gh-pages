@@ -112,6 +112,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         meta = "Private"
         tagline = "Générateur de présentations de films / series / jeux-vidéos / ebooks en allant scraper les sites les plus populaires dans chaques domaines"
         [[params.projects.list]]
+        title = "Lauralee HEBERT - Psychologue neuropsychologue"
+        link = "https://hebertneuropsychologue.fr/"
+        meta = "Open source"
+        tagline = "Site vitrine pour une psychologue neuropsychologue basé à Lyon et Brignais"
+        [[params.projects.list]]
         title = "Scraper"
         link = "https://github.com/rem42/scraper"
         meta = "Open source"
