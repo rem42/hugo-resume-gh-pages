@@ -4,20 +4,19 @@
 baseURL = "https://remy.ovh/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Rémy BRUYERE - Développeur PHP Symfony Prestashop"
+title = "Rémy BRUYERE - Développeur PHP Symfony React"
 googleAnalytics = "UA-76455329-1"
 
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 14 ans. E-commerce, Agile, Scrum, Kanban"
+	description = "Développeur PHP Symfony et Prestashop sur Saint-Étienne, Annecy et Lyon exerçant par passion puis formation depuis 16 ans. E-commerce, Agile, Scrum, Kanban"
     [params.profile]
         name = "Rémy BRUYERE"
-        job = "Développeur Full Stack"
+        job = "Développeur PHP - React"
         avatar = "images/profile.jpg"
-        summary = "J’ai commencé le développement web par passion il y a 14 ans, en autodidacte lorsque j’étais encore au lycée. Je réalisais alors des sites web pour des projets personnels. Je me suis naturellement orienté vers des études d’informatique avant de me spécialiser dans le web puis dans le e-commerce à travers diverses expériences. Je maitrise le PHP, Symfony, Prestashop, Angular, Vue, les problématiques du web et plus particulièrement celles liées au e-commerce. J’ai l’habitude de travailler en autonomie sous des contraintes de délais, et dans des équipes agiles."
-
+        summary = "J’ai commencé le développement web par passion il y a 16 ans, en autodidacte lorsque j’étais encore au lycée. Je réalisais alors des sites web pour des projets personnels. Je me suis naturellement orienté vers des études d’informatique avant de me spécialiser dans le web puis dans le e-commerce à travers diverses expériences. Je maitrise le PHP, Symfony, Prestashop, Angular, Vue, les problématiques du web et plus particulièrement celles liées au e-commerce. J’ai l’habitude de travailler en autonomie sous des contraintes de délais, et dans des équipes agiles."
     [params.contact]
         location = "Saint-Étienne, Annecy, Lyon"
         [[params.contact.list]]
@@ -50,29 +49,35 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [params.experience]
         [[params.experience.list]]
+        title = "Développeur Symfony / React"
+        company = "Éditions Tissot"
+        dates = "2022 - Aujourd'hui"
+        details = "Mise en place d'un moteur de recherche pour le projet BDESE (Base de données économiques, sociales et environnementales) sur les contributions chiffrées des entreprises. Amélioration des performances de l'application et de la sécurité."
+        technology = "PHP 8+ ; Symfony 6 ; React ; CircleCI ; PHPUnit ; Docker ; ElasticSearch ; Cypress ; RabbitMQ"
+        [[params.experience.list]]
+        title = "Développeur Symfony / React"
+        company = "Camalo"
+        dates = "2018 - aujourd'hui (plus de 2 ans)"
+        details = "Cette société fournissant des services logistiques pour le e-commerce m’a confié la réalisation de fonctionnalités d’administration en Symfony, interfacées avec les sites e-commerce Prestashop, Shopify, WooCommerce et les web-services d’expédition de Colissimo, TNT, Colis Privé, lettre verte de la poste et Delivengo. J’ai travaillé en autonomie, dans un environnement technique complexe."
+        technology = "Symfony 6 ; PHP 8 ; MariaDB ; SCSS ; React ; Webpack ; RabbitMQ ; Ansible ; API tierces"
+        [[params.experience.list]]
         title = "Développeur Symfony"
         company = "M6 Distribution / Bedrock"
         dates = "2021 - 2022 (8 mois)"
         details = "Intégré à l'équipe des Picsou qui s'occupe de la publicité sur les différentes plateformes (web, mobile, smart tv, iptv ...). Mise en place d'un système de mise à jour automatique des consentements pour la RGPD via Event Bridge et une Lambda afin d'améliorer les performance via une base de donnée dynamoDB local."
-        technology = "PHP ; Symfony 4 ; Jenkins ; Github Actions ; PHPUnit ; Terraform ; Docker ; ServerLess ; DynamoDB ; Newrelic"
+        technology = "PHP 8+ ; Symfony 4 ; Jenkins ; Github Actions ; PHPUnit ; Terraform ; Docker ; ServerLess ; DynamoDB ; Newrelic"
         [[params.experience.list]]
         title = "Développeur Symfony Vue.js"
         company = "M6 Distribution / Bedrock"
         dates = "2019 - 2021 (1 an et 6 mois)"
         details = "Intégré à l’équipe Duncan, j’ai eu l'opportunité de développer sur le back-office des différentes plateformes de streaming (6play.fr, salto.fr, videoland.com ...). Par ce biais, j’ai pu découvrir l’évolution d’une nouvelle équipe en méthodes agiles. J’ai mis en place des webservices en GraphQL, mais aussi preparer l'infrastructure nécessaire pour nos projets avec Terraform chez AWS. J'ai aussi réalisé la migration du back-officde de Symfony 3.4 vers Symfony 4.4"
-        technology = "PHP ; Symfony 3 et 4 ; GraphQL ; Vue.js ; Jenkins ; PHPUnit ; Terraform ; Docker ; DynamoDB ; Scrumban ; Newrelic"
+        technology = "PHP 7 - 8 ; Symfony 3 et 4 ; GraphQL ; Vue.js ; Jenkins ; PHPUnit ; Terraform ; Docker ; DynamoDB ; Scrumban ; Newrelic"
         [[params.experience.list]]
         title = "Développeur Symfony Angular freelance"
         company = "Iteatime / Editions Tissot"
         dates = "2018 - 2019 (plus d’un an)"
         details = "Recruté par Iteatime, je suis intervenu pour cette société spécialisée dans le droit social, sur un projet d’envergure : Lumio. Cette plateforme Saas propose d’assister les clients dans leur procédures RH. Ce projet m’a permis de solidifier mes compétences techniques et de maîtriser le travail dans un cadre agile."
         technology = "Architecture micro-service ; Scrum ; PHP 7.4 ; TypeScript ; Symfony 3 et 4 ; Angular 6 puis 8 ; tests unitaires et d’intégration ; PHPUnit ; Behat ; Postman ; Jasmine ; Karma ; Cypress ; RabbitMQ"
-        [[params.experience.list]]
-        title = "Développeur Symfony freelance"
-        company = "Camalo"
-        dates = "2018 (3 mois)"
-        details = "Cette société fournissant des services logistiques pour le e-commerce m’a confié la réalisation de fonctionnalités d’administration en Symfony, interfacées avec le site e-commerce Prestashop et les web-services d’expédition de la Poste et de TNT. J’ai travaillé en autonomie, dans un environnement technique complexe"
-        technology = "Symfony 4 ; PHP 7.4 ; MariaDB ; jQuery ; SCSS ; Vue.js ; Webpack ; RabbitMQ ; Ansible ; API tierces"
         [[params.experience.list]]
         title = "Développeur Symfony freelance"
         company = "Eskis live"
@@ -117,10 +122,30 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         meta = "Open source"
         tagline = "Moteur de scraping PHP utilisé dans différents projets pour uniformiser les développements"
         [[params.projects.list]]
+        title = "Scraper Shopify"
+        link = "https://github.com/rem42/scraper-shopify"
+        meta = "Open source"
+        tagline = "Librairie PHP pour interagir avec l'api des boutiques Shopify"
+        [[params.projects.list]]
         title = "Scraper Colissimo"
         link = "https://github.com/rem42/scraper-colissimo"
         meta = "Open source"
         tagline = "Librairie PHP pour envoyer des colis via Colissimo"
+        [[params.projects.list]]
+        title = "Scraper TNT"
+        link = "https://github.com/rem42/scraper-tnt"
+        meta = "Open source"
+        tagline = "Librairie PHP pour envoyer des colis via TNT"
+        [[params.projects.list]]
+        title = "Scraper Colis Privé"
+        link = "https://github.com/rem42/scraper-colisprive"
+        meta = "Open source"
+        tagline = "Librairie PHP pour envoyer des colis via Colis Privé"
+        [[params.projects.list]]
+        title = "Scraper Delivengo"
+        link = "https://github.com/rem42/scraper-delivengo"
+        meta = "Open source"
+        tagline = "Librairie PHP pour envoyer des colis via Delivengo"
         [[params.projects.list]]
         title = "Scraper Prestashop"
         link = "https://github.com/rem42/scraper-prestashop"
